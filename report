@@ -1,0 +1,57 @@
+# VPN Experiment Report
+
+## Objective
+To analyze how VPNs change IP address, encrypt traffic, and affect browsing performance.
+
+---
+
+## Procedure
+
+1. Selected **ProtonVPN (Free Plan)**.
+2. Installed client on Windows 10.
+3. Connected to a server in Singapore.
+4. Verified IP address before and after connection.
+5. Conducted browsing and speed tests.
+6. Compared performance and documented results.
+
+---
+
+## Observations
+
+| Metric | Without VPN | With VPN |
+|--------|--------------|----------|
+| IP Address | 49.xx.xx.xx (India) | 185.xx.xx.xx (Singapore) |
+| Download Speed | 47 Mbps | 31 Mbps |
+| Upload Speed | 25 Mbps | 18 Mbps |
+| Ping | 8 ms | 48 ms |
+
+---
+
+## Findings
+
+- The IP address successfully changed, proving VPN tunneling worked.
+- Encryption was active (HTTPS lock visible; verified via DNS leak test).
+- VPN added minor latency but protected identity and location.
+- No DNS leaks detected.
+- Free VPNs have limited bandwidth and server options.
+
+---
+
+## Summary: VPN Benefits and Limitations
+
+### ✅ Benefits
+- Hides real IP address and physical location.
+- Encrypts traffic on public Wi-Fi.
+- Helps bypass geographic restrictions.
+- Provides additional privacy against ISP tracking.
+
+### ⚠️ Limitations
+- Reduced speed and increased latency.
+- Some free VPNs log or share data.
+- Limited server choices and bandwidth.
+- Doesn’t protect against phishing or malware.
+
+---
+
+## Conclusion
+Using a VPN enhances online privacy and security by encrypting network traffic and hiding the user’s IP address. However, performance trade-offs and provider trustworthiness must be considered. For critical or long-term use, a **paid VPN with audited no-log policy** is recommended.
