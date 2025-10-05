@@ -59,4 +59,3 @@ This project demonstrates how to set up, test, and analyze a free VPN service fo
 ## 👨‍💻 Author
 **Vishnu Vardhan Reddy**  
 SV College of Engineering  
-Course: Foundations of Cyber Security
