@@ -1,0 +1,2 @@
+IP before VPN connection: 49.xx.xx.xx (India)
+ISP: Jio Fiber
